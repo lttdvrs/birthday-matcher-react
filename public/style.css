@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vh;
+    background: rgb(238, 238, 238);
+    /* flex-direction: column; */
+
+}
+.profile {
+    height: 80vh;
+    width: 80vh;
+    background: white;
+    /* border: rgb(226, 226, 226) 3px solid; */
+    border-radius: 6px;
+
+    margin-bottom: 17px;
+
+}
+
+.imageprofile {
+    object-fit: cover;
+    width:50vh;
+    height:50vh;
+}
+
+.search {
+    height: 8vh;
+    width: 35vw;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+    font-size: 1.8em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.link{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newbtn {
+  margin-right: 4vw;
+  width: 8vw;
+  height: 5vh;
+  margin-left: 4vw;
+}
+
+.headertxt {
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 12vw;
+    color: black;
+
+}
+
+.srcIcon{
+    margin-left: 3vw;
+}
+
+.addForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.add_element {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+}
+
+.addForm_btn {
+    height: 5vh;
+    width: 20vw;
+    color: white;
+    background: black;
+    border-radius: 2px;
+    border: none;
+}
+
+.input_el {
+    font-size: 1.2em;
+    height: 5vh;
+    width: 20vw;
+}
+
+.addHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.boostPerson {
+    height: 5vh;
+    width: 7vw;
+    margin-right: 2vw;
+}
+
+.boostName {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rank {
+    background: rgb(175, 51, 247);
+    color: white;
+    width: 65px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ranked_profile{
+    height: 60vh;
+    width: 22vw;
+    /* border: 1px solid black; */
+    margin-bottom: 7vh;
+    background: white;
+}
+
+.ranked_image{
+    object-fit: cover;
+    width:22vw;
+    height: 35vh;
+    position: relative;
+}
+
+.rankedtitle {
+    width: 100%;
+    margin-top: 5vh;
+    margin-left: 3vh;
+    color:  rgb(175, 51, 247);
+}
+
+.rankAndbtn{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+
+.rankAndName{
+    margin-top: 12px;
+    margin-bottom: 0;
+    margin-left: 2vw;
+}
+
+.filterButtons{
+    width: 100%;
+    margin-left: 3vh;
+    margin-bottom: 2vh;
+}
+
+.filterbtn{
+    width: 6vw;
+    height: 4vh;
+}
+
+.rankInfo{
+    margin-left: 2vw;
+    color: rgb(128, 128, 128);
+}
+
+.interested {
+    margin-left: 3vh;
+    width: 100%;
+}
+
+.bigInfo {
+    background: white;
+    width: 65vw;
+    height: 80%;
+}
+
+.bigInfo_img{
+    object-fit: cover;
+    width:40vw;
+    height: 75vh;
+}
+
+.infoAbout{
+    margin-top: 2vh;
+    width: 87%;
+    height: 70%;
+    margin-left: 2vh;
+    margin-bottom: 3vh;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.smallInfo {
+    width: 80%;
+    display: flex;
+    height: 38vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 3vh;
+}
+
+.aboutInfo {
+    color:  rgb(175, 51, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 2vh;
+    font-size: 1.2em;
+}
+
+.bigInfo_name {
+    color:  rgb(175, 51, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.smallBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.PurpleText {
+    color:rgb(175, 51, 247);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.GreyText  {
+    color :rgb(100, 100, 100);
+}
+
+.smallInfoBox {
+    /* width: 80%; */
+    margin-right: 8vw;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.moreData {
+    color: black;
+    font-size: 1.1em;
+}
+
+.moreCat{
+    margin-left: 2vw;
+}
+
+.moreRank {
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.birthdayaddtext {
+    width: 90%;
+    text-align: center;
+}
